@@ -1,4 +1,4 @@
-# Welcome!
+# Welcome @lab.User.FirstName!
 
 This lab environment is used for both DEV-24L (Linux Debugging 1) and DEV-25L (Linux Debugging 2).
 
@@ -106,9 +106,9 @@ We will look at this core dump in Session 2 lab 1
 ---
 ### *Lab 2 - Memory Leak*
 
->[!NOTE] To clear the console window run the *clear* command.
+>[!knowledge] To clear the console window run the *clear* command.
 
->[!NOTE] For this lab if you do not have *memleak.c* already present, run the below command to download it:
+>[!note] For this lab if you do not have *memleak.c* already present, run the below command to download it:
 >```
 >wget https://raw.githubusercontent.com/mahamr/GEARS2022SourceFiles/main/memleak.c
 >```
@@ -180,7 +180,7 @@ We will look at this core dump in Session 2 lab 1
 
  `perf record -g ./HighCpu`
 
-> [!NOTE] You can also use *perf* to attach to an existing process like this:
+> [!knowledge] You can also use *perf* to attach to an existing process like this:
 > ```
 > perf record -g -p ###
 > ```
@@ -251,7 +251,7 @@ We will look at this core dump in Session 2 lab 1
 
  `gdb SegFaultNoDbg core_SegFaultNoDbg`
 
->[!NOTE] One helpful way to learn or find things in gdb is "*apropos [search term]*" -- this scans through the built-in help documentation of gdb and outputs anything that matches.
+>[!knowledge] One helpful way to learn or find things in gdb is "*apropos [search term]*" -- this scans through the built-in help documentation of gdb and outputs anything that matches.
 
 3. View the current thread's backtrace (aka stack trace)
 
