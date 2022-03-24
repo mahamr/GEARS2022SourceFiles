@@ -4,9 +4,9 @@ This lab environment is used for both DEV-24L (Linux Debugging 1) and DEV-25L (L
 
 **Click [here](#session2 "Session 2 instructions") for the session 2 instructions, which are below session 1.**
 
-Instructor: **Matt Hamrick**, Support Escalation Engineer on the Developer Web Apps team
+Instructor: [removed]
 
-Alias: **mahamr**
+Alias: [removed]
 
 ===
 
